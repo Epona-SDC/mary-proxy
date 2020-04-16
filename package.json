@@ -7,7 +7,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "pm2 start ./server/server.js",
+    "start": "node ./server/server.js",
     "devStart": "nodemon ./server/server.js"
   },
   "dependencies": {
